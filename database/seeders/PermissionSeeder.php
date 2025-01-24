@@ -38,6 +38,9 @@ class PermissionSeeder extends Seeder
             ['name' => 'Update Category', 'guard_name' => 'web'],
             ['name' => 'Update Penalty', 'guard_name' => 'web'],
             ['name' => 'Update User', 'guard_name' => 'web'],
+            ['name' => 'Create Anybody Borrower', 'guard_name' => 'web'],
+            ['name' => 'Approving Borrower', 'guard_name' => 'web'],
+            ['name' => 'Return Anybody Borrower', 'guard_name' => 'web'],
         ]);
     }
 }

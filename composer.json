@@ -10,11 +10,14 @@
         "backpack/permissionmanager": "^6.0",
         "backpack/pro": "1.2.1",
         "backpack/revise-operation": "^1.0",
+        "barryvdh/laravel-elfinder": "^0.5.3",
         "consoletvs/charts": "6.*",
         "guzzlehttp/guzzle": "^7.2",
+        "intervention/image": "^3.11",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8"
+        "laravel/tinker": "^2.8",
+        "league/flysystem-aws-s3-v3": "^3.0"
     },
     "require-dev": {
         "backpack/generators": "^3.3",

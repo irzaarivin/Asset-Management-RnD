@@ -66,12 +66,15 @@ class BorrowingCrudController extends CrudController
         CRUD::column('borrow_date');
         CRUD::column('return_date');
         CRUD::column('status');
+
         if(backpack_user()->can('Approving Borrower')) {
             CRUD::addButtonFromView('line', 'approve-borrowing-button', 'approve-borrowing-button', 'end');
         }
+
         if(backpack_user()->can('Return Anybody Borrower')) {
             CRUD::addButtonFromView('line', 'returned-borrowing-button', 'returned-borrowing-button', 'end');
         }
+
         CRUD::column('created_at');
         CRUD::column('updated_at');
 
